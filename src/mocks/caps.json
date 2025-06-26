@@ -1,0 +1,155 @@
+{"products": 
+[
+    {
+     "id": 1,
+     "title":  "Gorra New Era Golden State Warriors NBA",
+     "category": ["NBA", "59FIFTY", "GOLDEN STATE"],
+     "team":"GOLDEN STATE",
+     "price": 45.99,
+     "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQIsGy1CPMjVgjdqqAfS9PcUQ5-jO2cL7f9w&s"],
+     "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQIsGy1CPMjVgjdqqAfS9PcUQ5-jO2cL7f9w&s"
+    },
+    {
+     "id": 2,
+     "title":  "Gorra New Era Golden State Warriors",
+     "category": ["NBA", "59FIFTY", "GOLDEN STATE"],
+     "team":"GOLDEN STATE",
+     "price": 45.99,
+     "images": ["https://images.footballfanatics.com/golden-state-warriors/mens-new-era-royal-golden-state-warriors-state-stitch-59fifty-fitted-hat_ss5_p-202353280+pv-1+u-pfoivpj4oxx8paouk3pa+v-5y18f9c1uari2wd5nva0.jpg?_hv=2&w=900","https://images.footballfanatics.com/golden-state-warriors/mens-new-era-royal-golden-state-warriors-state-stitch-59fifty-fitted-hat_ss5_p-202353280+pv-2+u-pfoivpj4oxx8paouk3pa+v-cckjapgkn3ag1q95xlro.jpg?_hv=2&w=900","https://images.footballfanatics.com/golden-state-warriors/mens-new-era-royal-golden-state-warriors-state-stitch-59fifty-fitted-hat_ss5_p-202353280+pv-4+u-pfoivpj4oxx8paouk3pa+v-hwd3xffcyqc4gcie72x1.jpg?_hv=2&w=900"],
+     "thumbnail": "https://images.footballfanatics.com/golden-state-warriors/mens-new-era-royal-golden-state-warriors-state-stitch-59fifty-fitted-hat_ss5_p-202353280+pv-1+u-pfoivpj4oxx8paouk3pa+v-5y18f9c1uari2wd5nva0.jpg?_hv=2&w=900"
+    },
+    {
+     "id": 3,
+     "title":  "Gorra New Era 59FIFTY Los Angeles Lakers",
+     "category": ["NBA", "59FIFTY", "L.A LAKERS"],
+     "team":"L.A LAKERS",
+     "price": 61.99,
+     "images": ["https://www.newera.com.ar/cdn/shop/files/60420065_59FIFTY_TRAIL_MIAHEA_OTC_3QL.jpg?v=1746046910"],
+     "thumbnail": "https://www.newera.com.ar/cdn/shop/files/60420065_59FIFTY_TRAIL_MIAHEA_OTC_3QL.jpg?v=1746046910"
+    },
+    {
+     "id": 4,
+     "title":  "Gorra New Era 59FIFTY Brooklyn Nets",
+     "category": ["NBA", "59FIFTY", "NETS"],
+     "team":"NETS",
+     "price": 56.99,
+     "images": ["https://www.newera.com.ar/cdn/shop/files/70343946_59FIFTY_59FIFTYBRONETOTC_BRONET_BLACK_3QL.jpg?v=1746047093&width=840"],
+     "thumbnail": "https://www.newera.com.ar/cdn/shop/files/70343946_59FIFTY_59FIFTYBRONETOTC_BRONET_BLACK_3QL.jpg?v=1746047093&width=840"
+    },
+    {
+     "id": 5,
+     "title":  "Gorra New Era Golden State Warriors NBA",
+     "category": ["NBA", "59FIFTY", "GOLDEN STATE"],
+     "team":"GOLDEN STATE",
+     "price": 45.99,
+     "images": ["https://cdn.sombreroshop.es/tf/629/10/Gorra-59Fifty-NBA-Tip-Off-Bucks-by-New-Era.61845a.jpg"],
+     "thumbnail": "https://cdn.sombreroshop.es/tf/629/10/Gorra-59Fifty-NBA-Tip-Off-Bucks-by-New-Era.61845a.jpg"
+    },
+    {
+      "id": 6,
+      "title": "2025 NBA All-Star Game 59FIFTY Fitted Hat",
+      "category": ["NBA", "59FIFTY"],
+      "price": 44.99,
+      "images": ["https://www.neweracap.com/cdn/shop/files/60652374_59FIFTY_M5950NBAASG247713_NBAASG_BLK_3QL.jpg?v=1736888565"],
+      "thumbnail": "https://www.neweracap.com/cdn/shop/files/60652374_59FIFTY_M5950NBAASG247713_NBAASG_BLK_3QL.jpg?v=1736888565"
+    },
+    {
+      "id": 7,
+      "title": "Golden State Warriors Spring Satin 59FIFTY Fitted",
+      "category": ["NBA","59FIFTY", "GOLDEN STATE"],
+      "team":"GOLDEN STATE",
+      "price": 49.99,
+      "images": ["https://fanatics.frgimages.com/golden-state-warriors/mens-new-era-red-golden-state-warriors-spring-color-pack-59fifty-fitted-hat_ss5_p-5003911+pv-1+u-ujitifaobksxrz04emoq+v-72hxgquem2dg0xyfy6fg.jpg?_hv=2&w=900"],
+      "thumbnail": "https://fanatics.frgimages.com/golden-state-warriors/mens-new-era-red-golden-state-warriors-spring-color-pack-59fifty-fitted-hat_ss5_p-5003911+pv-1+u-ujitifaobksxrz04emoq+v-72hxgquem2dg0xyfy6fg.jpg?_hv=2&w=900"
+    },
+    {
+      "id": 8,
+      "title": "Chicago Bulls Spring Satin 59FIFTY Fitted",
+      "category": ["NBA","59FIFTY", "CHICAGO BULLS"],
+      "team":"CHICAGO BULLS",
+      "price": 49.99,
+      "images": ["https://fanatics.frgimages.com/chicago-bulls/mens-new-era-black-chicago-bulls-state-stitch-59fifty-fitted-hat_ss5_p-202353285+u-8cvhpwzatuk2ddotows8+v-bwuzo6d61oof0grxcqdt.jpg?_hv=2&w=400"],
+      "thumbnail": "https://fanatics.frgimages.com/chicago-bulls/mens-new-era-black-chicago-bulls-state-stitch-59fifty-fitted-hat_ss5_p-202353285+u-8cvhpwzatuk2ddotows8+v-bwuzo6d61oof0grxcqdt.jpg?_hv=2&w=400"
+    },
+    {
+      "id": 9,
+      "title": "Brooklyn Nets Spring Satin 59FIFTY Fitted",
+      "category": ["NBA", "NETS", "59FIFTY"],
+      "team":"NETS",
+      "price": 49.99,
+      "images": ["https://images.footballfanatics.com/brooklyn-nets/mens%C2%A0new-era-black/gray-brooklyn-nets-throwback-satin-vintage-pin-two-tone-59fifty-fitted-hat_ss5_p-201910607+pv-3+u-jczanzmfft06mremlzxd+v-2wpdr7stsrsfrymoscpn.jpg?_hv=2&w=900","https://www.neweracap.com/cdn/shop/files/60623275_59FIFTY_5950SATIN22938_BRONET_OTC_3QR.jpg?v=1740674931","https://www.neweracap.com/cdn/shop/files/60623275_59FIFTY_5950SATIN22938_BRONET_OTC_R.jpg?v=1740674931&width=1946"],
+      "thumbnail": "https://images.footballfanatics.com/brooklyn-nets/mens%C2%A0new-era-black/gray-brooklyn-nets-throwback-satin-vintage-pin-two-tone-59fifty-fitted-hat_ss5_p-201910607+pv-3+u-jczanzmfft06mremlzxd+v-2wpdr7stsrsfrymoscpn.jpg?_hv=2&w=900"
+    },
+    {
+      "id": 10,
+      "title": "Los Angeles Lakers Vintage Herringbone 59FIFTY Fitted",
+      "category": ["NBA", "59FIFTY", "L.A LAKERS"],
+      "team":"L.A LAKERS",
+      "price": 25.00,
+      "images": ["https://www.newera.mx/cdn/shop/files/60586715_59FIFTY_VINTAGEHERRINGBONE_LOSLAK_TIR_3QL_720x.png?v=1729515543","https://www.newera.mx/cdn/shop/files/60586715_59FIFTY_VINTAGEHERRINGBONE_LOSLAK_TIR_F.png?v=1729515542","https://www.newera.mx/cdn/shop/files/60586715_59FIFTY_VINTAGEHERRINGBONE_LOSLAK_TIR_R.png?v=1729515543"],
+      "thumbnail": "https://www.newera.mx/cdn/shop/files/60586715_59FIFTY_VINTAGEHERRINGBONE_LOSLAK_TIR_3QL_720x.png?v=1729515543"
+    },
+    {
+      "id": 11,
+      "title": "Men's Indiana Pacers New Era 2025 Eastern Conference Champions Locker Room Snapback Hat",
+      "category": ["NBA", "59FIFTY", "PACERS"],
+      "team":"PACERS",
+      "price": 39.99,
+      "images": ["https://fanatics.frgimages.com/indiana-pacers/mens-new-era-charcoal/black-indiana-pacers-2025-eastern-conference-champions-locker-room-9fifty-snapback-hat_ss5_p-203165466+pv-1+u-eitt7nkkqpasv1ll17gv+v-ep307mt2albhylntyymy.jpg?_hv=2&w=900","https://fanatics.frgimages.com/indiana-pacers/mens-new-era-charcoal/black-indiana-pacers-2025-eastern-conference-champions-locker-room-9fifty-snapback-hat_ss5_p-203165466+pv-2+u-eitt7nkkqpasv1ll17gv+v-awcmutwgpsfvhb5uhv4d.jpg?_hv=2&w=900","https://fanatics.frgimages.com/indiana-pacers/mens-new-era-charcoal/black-indiana-pacers-2025-eastern-conference-champions-locker-room-9fifty-snapback-hat_ss5_p-203165466+pv-4+u-eitt7nkkqpasv1ll17gv+v-5ipzulqfj9977el7yc1i.jpg?_hv=2&w=900"],
+      "thumbnail": "https://fanatics.frgimages.com/indiana-pacers/mens-new-era-charcoal/black-indiana-pacers-2025-eastern-conference-champions-locker-room-9fifty-snapback-hat_ss5_p-203165466+pv-1+u-eitt7nkkqpasv1ll17gv+v-ep307mt2albhylntyymy.jpg?_hv=2&w=900"
+    },
+    {
+      "id": 12,
+      "title": "Men's Chicago Bulls New Era Black Black & White Logo 59FIFTY Fitted Hat",
+      "category": ["NBA", "59FIFTY", "CHICAGO BULLS"],
+      "team":"CHICAGO BULLS",
+      "price": 41.99,
+      "images": ["https://fanatics.frgimages.com/chicago-bulls/mens-new-era-black-chicago-bulls-black-and-white-logo-59fifty-fitted-hat_pi3196000_altimages_ff_3196106-09665ae8e5a676200517alt1_full.jpg?_hv=2&w=900","https://fanatics.frgimages.com/chicago-bulls/mens-new-era-black-chicago-bulls-black-and-white-logo-59fifty-fitted-hat_pi3196000_altimages_ff_3196106-09665ae8e5a676200517alt2_full.jpg?_hv=2&w=900","https://fanatics.frgimages.com/chicago-bulls/mens-new-era-black-chicago-bulls-black-and-white-logo-59fifty-fitted-hat_pi3196000_altimages_ff_3196106-09665ae8e5a676200517alt4_full.jpg?_hv=2&w=900"],
+      "thumbnail": "https://fanatics.frgimages.com/chicago-bulls/mens-new-era-black-chicago-bulls-black-and-white-logo-59fifty-fitted-hat_pi3196000_altimages_ff_3196106-09665ae8e5a676200517alt1_full.jpg?_hv=2&w=900"
+    },
+    {
+      "id": 13,
+      "title": "Men's Oklahoma City Thunder New Era Black/Royal Official Team Color 2Tone 59FIFTY Fitted Hat",
+      "category": ["NBA","59FIFTY", "OKLAHOMA"],
+      "team":"OKLAHOMA",
+      "price": 41.99,
+      "images": ["https://fanatics.frgimages.com/oklahoma-city-thunder/mens-new-era-black/royal-oklahoma-city-thunder-official-team-color-2tone-59fifty-fitted-hat_pi2634000_altimages_ff_2634217alt1_full.jpg?_hv=2&w=900","https://fanatics.frgimages.com/oklahoma-city-thunder/mens-new-era-black/royal-oklahoma-city-thunder-official-team-color-2tone-59fifty-fitted-hat_pi2634000_altimages_ff_2634217alt2_full.jpg?_hv=2&w=900","https://fanatics.frgimages.com/oklahoma-city-thunder/mens-new-era-black/royal-oklahoma-city-thunder-official-team-color-2tone-59fifty-fitted-hat_pi2634000_altimages_ff_2634217alt5_full.jpg?_hv=2&w=900"],
+      "thumbnail": "https://fanatics.frgimages.com/oklahoma-city-thunder/mens-new-era-black/royal-oklahoma-city-thunder-official-team-color-2tone-59fifty-fitted-hat_pi2634000_altimages_ff_2634217alt1_full.jpg?_hv=2&w=900"
+    },
+    {
+      "id": 14,
+      "title": "Men's Los Angeles Lakers New Era Black Black & White Logo 59FIFTY Fitted Hat",
+      "category": ["NBA", "59FIFTY", "L.A LAKERS"],
+      "team":"L.A LAKERS",
+      "price": 41.99,
+      "images": ["https://fanatics.frgimages.com/los-angeles-lakers/mens-new-era-black-los-angeles-lakers-black-and-white-logo-59fifty-fitted-hat_pi3196000_altimages_ff_3196111alt1_full.jpg?_hv=2&w=900","https://fanatics.frgimages.com/los-angeles-lakers/mens-new-era-black-los-angeles-lakers-black-and-white-logo-59fifty-fitted-hat_pi3196000_altimages_ff_3196111alt2_full.jpg?_hv=2&w=900","https://fanatics.frgimages.com/los-angeles-lakers/mens-new-era-black-los-angeles-lakers-black-and-white-logo-59fifty-fitted-hat_pi3196000_altimages_ff_3196111alt4_full.jpg?_hv=2&w=900"],
+      "thumbnail": "https://fanatics.frgimages.com/los-angeles-lakers/mens-new-era-black-los-angeles-lakers-black-and-white-logo-59fifty-fitted-hat_pi3196000_altimages_ff_3196111alt1_full.jpg?_hv=2&w=900"
+    },
+    {
+      "id": 15,
+      "title": "Men's Boston Celtics New Era Green/Black Official Team Color 2Tone 59FIFTY Fitted Hat",
+      "category": ["NBA","59FIFTY", "CELTICS"],
+      "team":"CELTICS",
+      "price": 41.99,
+      "images": ["https://fanatics.frgimages.com/boston-celtics/mens-new-era-green/black-boston-celtics-official-team-color-2tone-59fifty-fitted-hat_pi2634000_altimages_ff_2634191alt1_full.jpg?_hv=2&w=900","https://fanatics.frgimages.com/boston-celtics/mens-new-era-green/black-boston-celtics-official-team-color-2tone-59fifty-fitted-hat_pi2634000_altimages_ff_2634191alt2_full.jpg?_hv=2&w=900","https://fanatics.frgimages.com/boston-celtics/mens-new-era-green/black-boston-celtics-official-team-color-2tone-59fifty-fitted-hat_pi2634000_altimages_ff_2634191alt4_full.jpg?_hv=2&w=900"],
+      "thumbnail": "https://fanatics.frgimages.com/boston-celtics/mens-new-era-green/black-boston-celtics-official-team-color-2tone-59fifty-fitted-hat_pi2634000_altimages_ff_2634191alt1_full.jpg?_hv=2&w=900"
+    },
+    {
+      "id": 16,
+      "title": "Men's New York Knicks New Era Khaki Autumn 59FIFTY Fitted Hat",
+      "category": ["NBA","59FIFTY", "KNICKS"],
+      "team":"KNICKS",
+      "price": 43.99,
+      "images": ["https://fanatics.frgimages.com/new-york-knicks/mens-new-era-khaki-new-york-knicks-autumn-59fifty-fitted-hat_ss5_p-4967324+pv-1+u-dua7xqobgahs58puxl6h+v-pvu2jr0nicsq0huxbvur.jpg?_hv=2&w=900","https://fanatics.frgimages.com/new-york-knicks/mens-new-era-khaki-new-york-knicks-autumn-59fifty-fitted-hat_ss5_p-4967324+pv-2+u-dua7xqobgahs58puxl6h+v-bothv0wjsc6kbpntlhso.jpg?_hv=2&w=900","https://fanatics.frgimages.com/new-york-knicks/mens-new-era-khaki-new-york-knicks-autumn-59fifty-fitted-hat_ss5_p-4967324+pv-4+u-dua7xqobgahs58puxl6h+v-dnflsgmubk8s4bgu0g1n.jpg?_hv=2&w=900"],
+      "thumbnail": "https://fanatics.frgimages.com/new-york-knicks/mens-new-era-khaki-new-york-knicks-autumn-59fifty-fitted-hat_ss5_p-4967324+pv-1+u-dua7xqobgahs58puxl6h+v-pvu2jr0nicsq0huxbvur.jpg?_hv=2&w=900"
+    },
+    {
+      "id": 17,
+      "title": "Men's Boston Celtics New Era Black Official Team Color 59FIFTY Fitted Hat",
+      "category": ["NBA","59FIFTY", "CELTICS"],
+      "team":"CELTICS",
+      "price": 25.00,
+      "images": ["https://fanatics.frgimages.com/boston-celtics/mens-new-era-black-boston-celtics-official-team-color-59fifty-fitted-hat_pi2561000_altimages_ff_2561350alt1_full.jpg?_hv=2&w=900","https://fanatics.frgimages.com/boston-celtics/mens-new-era-black-boston-celtics-official-team-color-59fifty-fitted-hat_pi2561000_altimages_ff_2561350alt2_full.jpg?_hv=2&w=900","https://fanatics.frgimages.com/boston-celtics/mens-new-era-black-boston-celtics-official-team-color-59fifty-fitted-hat_pi2561000_altimages_ff_2561350alt4_full.jpg?_hv=2&w=900"],
+      "thumbnail": "https://fanatics.frgimages.com/boston-celtics/mens-new-era-black-boston-celtics-official-team-color-59fifty-fitted-hat_pi2561000_altimages_ff_2561350alt1_full.jpg?_hv=2&w=900"
+    }
+    ]}

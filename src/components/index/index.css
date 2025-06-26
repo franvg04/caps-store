@@ -1,0 +1,8 @@
+body {
+    /*min-height: 100vh;*/
+    padding: 0px;
+    margin: 0px;
+    font-family: system-ui, -apple-system;
+    place-content: center;
+    margin-top: 100px;
+}
