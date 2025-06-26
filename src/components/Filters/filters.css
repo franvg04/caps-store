@@ -68,6 +68,10 @@ input[type="checkbox"] {
     display: none;
 }
 
+.modal-content {
+  display: none;
+}
+
 .filters-contentMobile {
   width: 100%;
   display: flex;
@@ -142,6 +146,7 @@ input[type="checkbox"]:checked {
     }
 
     .modal-content {
+    display: grid;
     background: white;
     border-radius: 10px;
     padding: 1rem;
