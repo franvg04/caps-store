@@ -28,8 +28,15 @@
     max-width: 150px;
 }
 
-.cart-product-info {
+.cart-product-price {
+    align-self: end;
+    margin: 0px;
+}
 
+.cart-product-price p {
+    margin: 0;
+    font-size: 14px;
+    opacity: 0.5;
 }
 
 .cart-quantity-control {

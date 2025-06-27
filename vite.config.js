@@ -9,6 +9,7 @@ export default defineConfig({
       '@mocks': path.resolve(__dirname, 'src/mocks'),
       '@components': path.resolve(__dirname, 'src/components'),
       '@img': path.resolve(__dirname, 'src/img'),
+      '@hooks': path.resolve(__dirname, 'src/hooks'),
     },
   },
 });

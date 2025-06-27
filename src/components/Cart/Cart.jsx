@@ -1,8 +1,9 @@
 import { useCart } from "@components/CartContext/CartContext";
 import "./Cart.css";
+import { QuantityControl } from "@components/Controls/QuantityControl";
 
 export function Cart() {
-  const { itemCart } = useCart();
+  const { itemCart, removeFromCart } = useCart();
   return (
     <>
       <h2>Cart</h2>
@@ -14,8 +15,7 @@ export function Cart() {
             <div className="cart-header">
               {itemCart.map((product) => {
                 return (
-                  <>
-                    <div className="cart-item" key={product.id}>
+                    <div className="cart-item" key={`${product.id}-${product.size}`}>
                       <div className="product-image">
                         <img
                           src={product.image}
@@ -28,28 +28,19 @@ export function Cart() {
                           <strong>{product.name} </strong>
                           (Size: {product.size})
                         </span>
-                        <div className="cart-quantity-control">
-                          <button className="cart-quantity-control-btn">
-                            -
-                          </button>
-                          <input
-                            type="number"
-                            readOnly
-                            value={product.quantity}
-                            className="cart-quantity-control-input"
-                          />
-                          <button className="cart-quantity-control-btn">
-                            +
-                          </button>
-                      
-                        </div>
-                        <button className="delete-btn">
+                        <QuantityControl
+                        productId={product.id}
+                        productSize={product.size}
+                        />
+                        <button className="delete-btn" onClick={() =>removeFromCart(product.id, product.size)}>
                             Delete
                           </button>
                       </div>
-                      <p><strong>${product.price}</strong></p>
+                      <div className="cart-product-price">
+                        <p>${product.price}</p>
+                        <strong>${(product.price * product.quantity).toFixed(2)}</strong>
+                      </div>
                     </div>
-                  </>
                 );
               })}
             </div>
@@ -69,6 +60,9 @@ export function Cart() {
                     0
                   ).toFixed(2)}
                 </p>
+              </div>
+              <div className="purchase-button">
+                <button className="purchase-btn">Purchase</button>
               </div>
             </div>
           </>
