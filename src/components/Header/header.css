@@ -67,4 +67,9 @@
     font-size: 10px;
     color: #fff;
     background-color: rgb(255, 37, 37);
+    font-weight: bold;
+}
+
+.counter.hidden {
+    display: none;
 }
