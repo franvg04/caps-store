@@ -12,9 +12,12 @@ export function ProductDetails() {
   const [selectedSize, setSelectedSize] = useState(null);
   const sizes = ["6 7/8", "7", "7 1/8", "7 1/4", "7 3/8", "7 1/2", "7 5/8", "7 3/4", "7 7/8", "8"];
   const {addCart} = useCart();
+  const [isAdded, setIsAdded] = useState(null);
 
   const handleAddCart = () => {
     if (product) {
+      setIsClicked("add");
+      setTimeout(() => {
       addCart({
         id: product.id,
         image: product.thumbnail,
@@ -23,6 +26,7 @@ export function ProductDetails() {
         quantity: 1,
         size: selectedSize
       })
+      }, 1000);
     }
   }
 
@@ -88,6 +92,7 @@ export function ProductDetails() {
                 })}
               </div>
               <button className="product-details-cart" onClick={handleAddCart}>
+                <div className={`icon ${isAdded === "add" ? "clicked" : ""}`}>
                 <svg
                   class="w-6 h-6 text-gray-800 dark:text-white"
                   aria-hidden="true"
@@ -106,6 +111,7 @@ export function ProductDetails() {
                   />
                 </svg>
                 Add to cart
+                </div>
               </button>
             </div>
           </div>

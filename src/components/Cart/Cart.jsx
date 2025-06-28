@@ -1,6 +1,7 @@
 import { useCart } from "@components/CartContext/CartContext";
 import "./Cart.css";
 import { QuantityControl } from "@components/Controls/QuantityControl";
+import { FaTrashAlt } from "react-icons/fa";
 
 export function Cart() {
   const { itemCart, removeFromCart } = useCart();
@@ -28,13 +29,14 @@ export function Cart() {
                           <strong>{product.name} </strong>
                           (Size: {product.size})
                         </span>
-                        <QuantityControl
+                        <div className="control">
+                          <QuantityControl
                         productId={product.id}
                         productSize={product.size}
                         />
-                        <button className="delete-btn" onClick={() =>removeFromCart(product.id, product.size)}>
-                            Delete
-                          </button>
+                        <FaTrashAlt className="delete-btn" onClick={() =>removeFromCart(product.id, product.size)}/>
+                        </div>
+                        
                       </div>
                       <div className="cart-product-price">
                         <p>${product.price}</p>

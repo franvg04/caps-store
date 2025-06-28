@@ -1,17 +1,33 @@
 import { useCart } from "@components/CartContext/CartContext";
-import { IoIosAdd } from "react-icons/io";
-import { IoIosRemove } from "react-icons/io";
+import { IoIosAdd, IoIosRemove } from "react-icons/io";
+import { useState } from "react";
+import "./quantityControls.css";
+import spinner from "@img/spinner.svg";
 
 
 export function QuantityControl({ productId, productSize }) {
   const { itemCart, incrementCart, decrementCart } = useCart();
+  const [isBusy, setIsBusy] = useState(false);
+  const [isClicked, setIsClicked] = useState(null);
 
   const handleIncrement = () => {
-    incrementCart(productId, productSize);
+    if (isBusy) return;
+    setIsBusy(true);
+    setIsClicked("inc");
+    setTimeout(() => {
+      incrementCart(productId, productSize);
+      setIsBusy(false);
+    }, 1000); 
   };
 
   const handleDecrement = () => {
-    decrementCart(productId, productSize);
+    if (isBusy) return;
+    setIsBusy(true);
+    setIsClicked("dec");
+    setTimeout(() => {
+      decrementCart(productId, productSize);
+      setIsBusy(false);
+    }, 1000);
   };
 
     const product = itemCart.find(
@@ -21,14 +37,12 @@ export function QuantityControl({ productId, productSize }) {
 
   return (
     <div className="cart-quantity-control">
-      <IoIosRemove onClick={handleDecrement} className="cart-quantity-control-btn"/>
-      <input
-        type="number"
-        readOnly
-        value={quantity} 
-        className="cart-quantity-control-input"
-      />
-      <IoIosAdd onClick={handleIncrement} className="cart-quantity-control-btn"/>
+      <IoIosRemove onClick={handleDecrement} className={`cart-quantity-control-btn-dec ${isClicked === "dec" ? "clicked" : ""} ${isBusy ? "none" : ""}`} />
+      <img src={spinner} alt="spinner" className={isBusy ? "spinner" : "none"} />
+      <span className={isBusy ? "none" : "cart-quantity-control-input"}>{quantity}</span>
+      <IoIosAdd onClick={handleIncrement} className={`cart-quantity-control-btn-inc ${isClicked === "inc" ? "clicked" : ""} ${isBusy ? "none" : ""}`}/>
     </div>
   );
 }
+
+

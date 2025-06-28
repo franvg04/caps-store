@@ -178,6 +178,9 @@
   background-color: #131313c9;
 }
 
+.product-details-cart.clicked {
+  display: none;
+}
 
 @media (max-width: 1220px) {
   .product-details-thumbnails-vertical {
