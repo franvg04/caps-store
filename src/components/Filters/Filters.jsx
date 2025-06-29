@@ -7,7 +7,7 @@ import { products } from "../../mocks/caps.json";
 export function Filters() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   const [sort, setSort] = useState("Relevant");
-  const [filter, setFilter] = useState({categories: []})
+  const [filter, setFilter] = useState({categories: [], teams: []});
 
 
   const handleToggleMenu = () => {
@@ -31,7 +31,8 @@ export function Filters() {
     const matchCategory =
     filter.categories.length === 0 || filter.categories.some((cat) => product.category.includes(cat));
     return matchCategory;
-  })
+  }
+)
 
   const sortedProducts = [...filteredProducts].sort((a,b) =>{
     if (sort === "Price: Lowest to Highest") {
