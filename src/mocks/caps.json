@@ -2,16 +2,16 @@
 [
     {
      "id": 1,
-     "title":  "Gorra New Era Golden State Warriors NBA",
+     "title":  "New Era Golden State Warriors NBA",
      "category": ["NBA", "59FIFTY", "GOLDEN STATE"],
-     "team":"GOLDEN STATE",
+     "team":["GOLDEN STATE", "SPECIAL EDITION"],
      "price": 45.99,
      "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQIsGy1CPMjVgjdqqAfS9PcUQ5-jO2cL7f9w&s"],
      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQIsGy1CPMjVgjdqqAfS9PcUQ5-jO2cL7f9w&s"
     },
     {
      "id": 2,
-     "title":  "Gorra New Era Golden State Warriors",
+     "title":  "New Era Golden State Warriors",
      "category": ["NBA", "59FIFTY", "GOLDEN STATE"],
      "team":"GOLDEN STATE",
      "price": 45.99,
@@ -20,7 +20,7 @@
     },
     {
      "id": 3,
-     "title":  "Gorra New Era 59FIFTY Los Angeles Lakers",
+     "title":  "New Era 59FIFTY Los Angeles Lakers",
      "category": ["NBA", "59FIFTY", "L.A LAKERS"],
      "team":"L.A LAKERS",
      "price": 61.99,
@@ -29,7 +29,7 @@
     },
     {
      "id": 4,
-     "title":  "Gorra New Era 59FIFTY Brooklyn Nets",
+     "title":  "New Era 59FIFTY Brooklyn Nets",
      "category": ["NBA", "59FIFTY", "NETS"],
      "team":"NETS",
      "price": 56.99,
@@ -38,7 +38,7 @@
     },
     {
      "id": 5,
-     "title":  "Gorra New Era Golden State Warriors NBA",
+     "title":  "New Era Golden State Warriors NBA",
      "category": ["NBA", "59FIFTY", "GOLDEN STATE"],
      "team":"GOLDEN STATE",
      "price": 45.99,
@@ -49,6 +49,7 @@
       "id": 6,
       "title": "2025 NBA All-Star Game 59FIFTY Fitted Hat",
       "category": ["NBA", "59FIFTY"],
+      "team":"SPECIAL EDITION",
       "price": 44.99,
       "images": ["https://www.neweracap.com/cdn/shop/files/60652374_59FIFTY_M5950NBAASG247713_NBAASG_BLK_3QL.jpg?v=1736888565"],
       "thumbnail": "https://www.neweracap.com/cdn/shop/files/60652374_59FIFTY_M5950NBAASG247713_NBAASG_BLK_3QL.jpg?v=1736888565"
@@ -91,7 +92,7 @@
     },
     {
       "id": 11,
-      "title": "Men's Indiana Pacers New Era 2025 Eastern Conference Champions Locker Room Snapback Hat",
+      "title": "Indiana Pacers New Era 2025 Eastern Conference Champions Locker Room Snapback Hat",
       "category": ["NBA", "59FIFTY", "PACERS"],
       "team":"PACERS",
       "price": 39.99,
@@ -100,7 +101,7 @@
     },
     {
       "id": 12,
-      "title": "Men's Chicago Bulls New Era Black Black & White Logo 59FIFTY Fitted Hat",
+      "title": "Chicago Bulls New Era Black Black & White Logo 59FIFTY Fitted Hat",
       "category": ["NBA", "59FIFTY", "CHICAGO BULLS"],
       "team":"CHICAGO BULLS",
       "price": 41.99,
@@ -109,7 +110,7 @@
     },
     {
       "id": 13,
-      "title": "Men's Oklahoma City Thunder New Era Black/Royal Official Team Color 2Tone 59FIFTY Fitted Hat",
+      "title": "Oklahoma City Thunder New Era Black/Royal Official Team Color 2Tone 59FIFTY Fitted Hat",
       "category": ["NBA","59FIFTY", "OKLAHOMA"],
       "team":"OKLAHOMA",
       "price": 41.99,
@@ -118,7 +119,7 @@
     },
     {
       "id": 14,
-      "title": "Men's Los Angeles Lakers New Era Black Black & White Logo 59FIFTY Fitted Hat",
+      "title": "Los Angeles Lakers New Era Black Black & White Logo 59FIFTY Fitted Hat",
       "category": ["NBA", "59FIFTY", "L.A LAKERS"],
       "team":"L.A LAKERS",
       "price": 41.99,
@@ -127,7 +128,7 @@
     },
     {
       "id": 15,
-      "title": "Men's Boston Celtics New Era Green/Black Official Team Color 2Tone 59FIFTY Fitted Hat",
+      "title": "Boston Celtics New Era Green/Black Official Team Color 2Tone 59FIFTY Fitted Hat",
       "category": ["NBA","59FIFTY", "CELTICS"],
       "team":"CELTICS",
       "price": 41.99,
@@ -136,7 +137,7 @@
     },
     {
       "id": 16,
-      "title": "Men's New York Knicks New Era Khaki Autumn 59FIFTY Fitted Hat",
+      "title": "New York Knicks New Era Khaki Autumn 59FIFTY Fitted Hat",
       "category": ["NBA","59FIFTY", "KNICKS"],
       "team":"KNICKS",
       "price": 43.99,
@@ -145,7 +146,7 @@
     },
     {
       "id": 17,
-      "title": "Men's Boston Celtics New Era Black Official Team Color 59FIFTY Fitted Hat",
+      "title": "Boston Celtics New Era Black Official Team Color 59FIFTY Fitted Hat",
       "category": ["NBA","59FIFTY", "CELTICS"],
       "team":"CELTICS",
       "price": 25.00,

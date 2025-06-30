@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./components/ProductCard/style_ProductCard.css";
 import { Filters } from "./components/Filters/Filters";
 import { Header } from "./components/Header/Header";
-import bannerImg from "./img/banner.jpg";
+import bannerImg from "./img/banner3.jpg";
 import { Banner } from "./components/Banner/Banner";
 import { Routes, Route } from "react-router-dom";
 import { ProductDetails } from "./components/ProductDetails/ProductDetails";
@@ -13,6 +13,7 @@ import { Cart } from "@components/Cart/Cart";
 function useFilters() {
   const [filters, setFilter] = useState({
     category: 'all',
+    team: 'all',
     minPrice: 0
   });
 
@@ -21,7 +22,8 @@ function useFilters() {
       return (
         product.price >= filters.minPrice && (
           filters.category === 'all' ||
-          product.category === filters.category
+          product.category === filters.category ||
+          product.team === filters.team
         )
       );
     });

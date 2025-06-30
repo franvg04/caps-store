@@ -7,10 +7,9 @@ export function Cart() {
   const { itemCart, removeFromCart } = useCart();
   return (
     <>
-      <h2>Cart</h2>
       <div className="cart-container">
         {itemCart.length === 0 ? (
-          <p>Add products at cart</p>
+          <p>Carrito vacio, agrega productos!</p>
         ) : (
           <>
             <div className="cart-header">
@@ -47,10 +46,10 @@ export function Cart() {
               })}
             </div>
             <div className="cart-total">
-              <p>Your purchase</p>
+              <h3>Tu compra</h3>
               <div className="cart-total-info">
                 <p>
-                  Products (
+                  Productos (
                   {itemCart.reduce((sum, product) => sum + product.quantity, 0)}
                   )
                 </p>
@@ -64,7 +63,7 @@ export function Cart() {
                 </p>
               </div>
               <div className="purchase-button">
-                <button className="purchase-btn">Purchase</button>
+                <button className="purchase-btn">Comprar</button>
               </div>
             </div>
           </>
