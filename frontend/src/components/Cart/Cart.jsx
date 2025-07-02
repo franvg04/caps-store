@@ -24,7 +24,7 @@ export function Cart() {
                         />
                       </div>
                       <div className="cart-product-info">
-                        <span>
+                        <span className="cart-product-name">
                           <strong>{product.name} </strong>
                           (Size: {product.size})
                         </span>

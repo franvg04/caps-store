@@ -1,14 +1,16 @@
 import { useEffect, useRef, useState } from "react";
 import "./detailProduct.css";
 import { products } from "@mocks/caps.json";
-import { useParams } from "react-router-dom";
+import { useParams, useSearchParams } from "react-router-dom";
 import VanillaTilt from "vanilla-tilt";
 import { useCart } from "@components/CartContext/CartContext";
-import { FaCheck } from "react-icons/fa";
-import { FaCartPlus } from "react-icons/fa6";
+import { FaCheck, FaTruck } from "react-icons/fa";
+import { FaCartPlus, FaArrowRotateLeft } from "react-icons/fa6";
+import { MdOutlineSecurity } from "react-icons/md";
 
 
 export function ProductDetails() {
+  const searchParams = useSearchParams();
   const { id } = useParams();
   const [product, setProduct] = useState(null);
   const [activeImage, setActiveImage] = useState("");
@@ -79,11 +81,23 @@ export function ProductDetails() {
             </div>
 
             <div className="product-details-info">
+              <p className="product-details-team">{
+                product.team
+                .toLowerCase()
+                .split(" ")
+                .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                .join(" ")
+            }</p>
               <p className="product-details-name">{product.title}</p>
               <p className="product-details-price">${product.price}</p>
               <p className="product-details-priceQuotas">
                 3 x ${(product.price / 3).toFixed(2)} Sin interés
               </p>
+              <div className="product-details-icons-container">
+              <FaTruck className="product-details-icons"/> <p>Envío gratis a partir de los $400.00</p>
+              <MdOutlineSecurity className="product-details-icons"/><p>Compra protegida</p>
+              <FaArrowRotateLeft className="product-details-icons"/><p>Podes cambiar el talle</p>
+              </div>
               <div className="product-details-sizes">
                 {sizes.map((size) => {
                   return (

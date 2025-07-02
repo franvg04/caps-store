@@ -9,6 +9,7 @@ import { ProductDetails } from "./components/ProductDetails/ProductDetails";
 import { useLocation } from "react-router-dom";
 import { CartProvider } from "@components/CartContext/CartContext";
 import { Cart } from "@components/Cart/Cart";
+import { Footer } from "./components/Footer/Footer";
 
 function useFilters() {
   const [filters, setFilter] = useState({
@@ -35,9 +36,10 @@ function useFilters() {
 
 export function App() {
   return (
-    <>
+    <div className="app-container">
       <CartProvider>
       <Header />
+      <main className="main-content">
       <Routes>
         <Route
           path="/"
@@ -54,8 +56,10 @@ export function App() {
         <Route path="/product/:id" element={<ProductDetails />} />
         <Route path="/cart" element={<Cart/>}></Route>
       </Routes>
+      </main>
       </CartProvider>
-    </>
+      <Footer />
+    </div>
   );
 }
 

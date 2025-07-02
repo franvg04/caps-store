@@ -266,12 +266,13 @@ export function Filters() {
         sortedProducts.map((product) => {
           return (
             <ProductCard
-            key={product.id}
+              key={product.id}
               productId={product.id}
               productName={product.title}
               productImage={product.thumbnail}
               productPrice={product.price}
               productImagesCar={product.images}
+              productTeam = {product.team}
             ></ProductCard>
           );
         })) : (
