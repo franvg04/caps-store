@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./modal.css";
 import { IoClose } from "react-icons/io5";
@@ -17,6 +17,12 @@ export function Modal({
   productTeam,
 }) {
   const [activeImage, setActiveImage] = useState(productImage);
+  useEffect(() => {
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = "";
+    }
+  }, [])
   return (
     <>
       <div className="md-modal-overlay">

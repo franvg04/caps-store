@@ -204,6 +204,10 @@ display: grid;
     justify-content: center;
   }
 
+  .md-modal-name {
+    font-size: 20px;
+  }
+
   .md-modal-images {
     display: grid;
     flex-direction: row;
@@ -214,9 +218,28 @@ display: grid;
     gap: 0px;
   }
 
-  .md-modal-overlay {
-    top: 80px;
+  .md-modal-priceQuotas {
+    font-size: 18px;
   }
+
+  .md-modal-price {
+    font-size: 22px;
+  }
+
+  .md-modal-icons-container {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .md-modal-content {
+    top: 50px;
+  }
+
+  .md-modal-name {
+    font-size: 18px;
+  }
+  
 }
 
 
