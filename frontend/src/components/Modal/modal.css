@@ -34,8 +34,14 @@
 }
 
 .md-modal-image {
-  width: 500px;
   height: auto;
+  width: 100%;
+  max-width: 250px;
+  height: 100%;
+  max-height: 250px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 .md-modal-title {
@@ -101,17 +107,6 @@
 .md-modal-thumbnails-vertical img.active {
   opacity: 1;
   border-color: white;
-}
-
-.md-modal-image {
-  width: 100%;
-  max-width: 250px;
-  height: 100%;
-  max-height: 250px;
-  aspect-ratio: 1/1;
-  object-fit: cover;
-  border-radius: 10px;
-  
 }
 
 .md-modal-thumbnails-vertical-mobile {
@@ -189,11 +184,22 @@ display: grid;
     margin-left: 15px;
     margin-right: 15px;
     max-width: 400px;
+    max-height: calc(100vh -40px);
+    height: 100%;
+    max-height: 800px;
+    top: 50px;
+  }
+
+  .md-modal-overlay {
+    overflow-y: auto;
+    padding: 20px 0;
   }
 
   .md-modal-image {
     width: 100%;
     max-width: 200px;
+    height: 100%;
+    max-height: 200px;
   }
 
   .md-modal-thumbnails-vertical {
@@ -213,17 +219,14 @@ display: grid;
     flex-direction: row;
     overflow-x: auto;
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
+    max-height: 500px;
     justify-content: center;
     gap: 0px;
   }
 
   .md-modal-priceQuotas {
     font-size: 18px;
-  }
-
-  .md-modal-price {
-    font-size: 22px;
   }
 
   .md-modal-icons-container {
@@ -238,9 +241,14 @@ display: grid;
 
   .md-modal-name {
     font-size: 18px;
+  } 
+}
+
+@media (max-width: 380px) {
+  .md-modal-content {
+    top: 150px;
   }
   
 }
-
 
 
