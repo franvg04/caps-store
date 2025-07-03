@@ -1,17 +1,24 @@
 import { useCart } from "@components/CartContext/CartContext";
 import "./Cart.css";
 import { QuantityControl } from "@components/Controls/QuantityControl";
-import { FaTrashAlt } from "react-icons/fa";
+import { FaTrashAlt, FaShoppingCart } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export function Cart() {
   const { itemCart, removeFromCart } = useCart();
   return (
     <>
-      <div className="cart-container">
         {itemCart.length === 0 ? (
-          <p>Carrito vacio, agrega productos!</p>
+          <div className="cart-empty">
+            <FaShoppingCart className="cart-empty-icon"/>
+            <p>Agrega productos al carrito</p>
+            <Link to="/">
+            <button className="cart-empty-btn">Visitar productos</button>
+            </Link>
+          </div>
         ) : (
           <>
+          <div className="cart-container">
             <div className="cart-header">
               {itemCart.map((product) => {
                 return (
@@ -66,9 +73,9 @@ export function Cart() {
                 <button className="purchase-btn">Comprar</button>
               </div>
             </div>
+      </div>
           </>
         )}
-      </div>
     </>
   );
 }

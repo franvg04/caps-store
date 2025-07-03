@@ -5,13 +5,10 @@ import { products } from "../../mocks/caps.json";
 import { IoClose } from "react-icons/io5";
 import { HiMiniAdjustmentsHorizontal } from "react-icons/hi2";
 
-
-
 export function Filters() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   const [sort, setSort] = useState("Relevant");
   const [filter, setFilter] = useState({categories: [], teams: []});
-
 
   const handleToggleMenu = () => {
     setShowMobileMenu(!showMobileMenu);
