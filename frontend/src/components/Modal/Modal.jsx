@@ -23,6 +23,13 @@ export function Modal({
       document.body.style.overflow = "";
     }
   }, [])
+
+  useEffect(() => {
+  document.body.classList.add("modal-open");
+  return () => {
+    document.body.classList.remove("modal-open");
+  };
+}, []);
   return (
     <>
       <div className="md-modal-overlay">
